@@ -11,8 +11,8 @@ Using BERT's tokenizer, we break the combined text into tokens. Each token corre
 
 Creating BERT Embeddings:
 We pass the tokens through the BERT model, which generates high-dimensional embeddings for each token. These embeddings capture the contextual meaning of each word in the profile.
-Average Embeddings:
 
+Average Embeddings:
 For each class (real and fake), we calculate the average embedding by averaging the embeddings of all tokens associated with that class. This helps us understand the typical characteristics of real and fake profiles.
 
 Adjusting Token Embeddings:
